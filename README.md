@@ -15,4 +15,6 @@ It is example of using coin-hive.com miner in unity3d WebGL build
 
 5) insert <script> in index.html file
 
+//<script src="https://coin-hive.com/lib/coinhive.min.js"></script>
+
 6) Profit!!
