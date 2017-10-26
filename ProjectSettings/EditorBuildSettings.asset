@@ -6,5 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/TestScene.unity
+    path: Assets/UniHive/Example/TestUniHiveScene.unity
     guid: 2662229ad4d84473aa554a759384ce8a

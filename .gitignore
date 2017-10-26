@@ -2,3 +2,8 @@
 /TestBuild/
 /obj/
 /Library/
+*.zip
+*.app
+*.csproj
+*.userprefs
+*.sln
