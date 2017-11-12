@@ -30,7 +30,7 @@ Checkout and try a demo!
 
 Feel free to contact with me:
 
-<a href="https://twitter.com/afrokick">Twitter</a> | <a href="mailto://devbyru@gmail.com">email</a>
+<a href="https://twitter.com/afrokick">Twitter</a> | <a href="mailto:devbyru@gmail.com">email</a>
 
 # License
 
