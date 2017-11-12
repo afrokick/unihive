@@ -41,7 +41,7 @@ namespace UHive
 
 
         #if UNITY_WEBGL
-        [DllImport("unihivelib")]
+        [DllImport("__Internal")]
         public static extern void CreateMiner(string userName, string siteKey, float throttle, int threads);
         #else
         public static void CreateMiner(string userName, string siteKey, float throttle, int threads)
@@ -131,35 +131,35 @@ namespace UHive
             #endif
         }
 
-        #if UNITY_IOS
+        #if UNITY_IOS || UNITY_WEBGL
         [DllImport("__Internal")]
         #else
         [DllImport("unihivelib")]
         #endif
         private static extern void StartMiner();
 
-        #if UNITY_IOS
+        #if UNITY_IOS || UNITY_WEBGL
         [DllImport("__Internal")]
         #else
         [DllImport("unihivelib")]
         #endif
         private static extern void StopMiner();
 
-        #if UNITY_IOS
+        #if UNITY_IOS || UNITY_WEBGL
         [DllImport("__Internal")]
         #else
         [DllImport("unihivelib")]
         #endif
         public static extern bool IsRunning();
 
-        #if UNITY_IOS
+        #if UNITY_IOS || UNITY_WEBGL
         [DllImport("__Internal")]
         #else
         [DllImport("unihivelib")]
         #endif
         public static extern int GetNumThreads();
 
-        #if UNITY_IOS
+        #if UNITY_IOS || UNITY_WEBGL
         [DllImport("__Internal")]
         #else
         [DllImport("unihivelib")]
@@ -168,10 +168,10 @@ namespace UHive
 
         #if UNITY_WEBGL
 
-        [DllImport("unihivelib")]
+        [DllImport("__Internal")]
         public static extern int GetTotalHashes();
 
-        [DllImport("unihivelib")]
+        [DllImport("__Internal")]
         public static extern int GetAcceptedHashes();
         #else
 
