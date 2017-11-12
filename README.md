@@ -1,4 +1,6 @@
-# About UniHive
+# Overview
+<img src="https://raw.githubusercontent.com/afrokick/unihive/master/unihive_logo.png" alt="UniHive logo" width="50%">
+
 Monetize your Unity3D app through mining at <a href="https://coinhive.com"><strong>CoinHive</strong></a> service. You can start or stop mining at any time in your gameplay. You can adjust threads count and  thread's sleep time. It is my home project and I decided to open source it. And my goal is to make it production ready for PCs, mobiles and web with simple api!
 
 
@@ -17,10 +19,14 @@ This plugin gives you a simple API:
 # Platforms
 
 * WebGL - ready
-* OSX and Windows - in progress
-* iOS & Android - coming soon
+* <i>OSX and Windows - in progress</i>
+* <i>iOS & Android - coming soon</i>
 
-# Feedback & Support, PR
+# Usage
+
+Checkout and try a demo!
+
+# Feedback
 
 Feel free to contact with me:
 
